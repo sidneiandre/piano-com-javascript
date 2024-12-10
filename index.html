@@ -3,8 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles -->
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/main.css">
+
+    <!-- fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
+     <link
+     href="https://fonts.googleapis.com/css2?family=Poppins:ital,
+     wght@0,100;0,200;0,400;0,700;1,100;1,200;1,300;1,400&display=swap"
+     rel="stylesheet">
 
     <title>Piano Simulator</title>
 </head>
@@ -20,27 +29,27 @@
             </div>       
         </header>
         <ul class="piano-keys">
-            <li class="key white">a<span></span></li>
-            <li class="key black">w<span></span></li>
-            <li class="key white">s<span></span></li>
-            <li class="key black">e<span></span></li>
-            <li class="key white">d<span></span></li>
-            <li class="key black">f<span></span></li>
-            <li class="key white">t<span></span></li>
-            <li class="key black">g<span></span></li>
-            <li class="key white">y<span></span></li>
-            <li class="key black">h<span></span></li>
-            <li class="key white">u<span></span></li>
-            <li class="key black">j<span></span></li>
-            <li class="key white">k<span></span></li>
-            <li class="key black">o<span></span></li>
-            <li class="key white">l<span></span></li>
-            <li class="key black">p<span></span></li>
-            <li class="key white">;<span></span></li>
+            <li class="key white" data-key="a">a<span></span></li>
+            <li class="key black" data-key="w">w<span></span></li>
+            <li class="key white" data-key="s">s<span></span></li>
+            <li class="key black" data-key="e">e<span></span></li>
+            <li class="key white" data-key="d">d<span></span></li>
+            <li class="key black" data-key="f">f<span></span></li>
+            <li class="key white" data-key="t">t<span></span></li>
+            <li class="key black" data-key="g">g<span></span></li>
+            <li class="key white" data-key="y">y<span></span></li>
+            <li class="key black" data-key="h">h<span></span></li>
+            <li class="key white" data-key="u">u<span></span></li>
+            <li class="key black" data-key="j">j<span></span></li>
+            <li class="key white" data-key="k">k<span></span></li>
+            <li class="key black" data-key="o">o<span></span></li>
+            <li class="key white" data-key="l">l<span></span></li>
+            <li class="key black" data-key="p">p<span></span></li>
+            <li class="key white" data-key=";">;<span></span></li>
         </ul>
 
     </div>
     
-    <script src="./src/scripts/engine.js"></script>
+    <script src="./src/scripts/engine.js" defer></script>
 </body>
 </html>
